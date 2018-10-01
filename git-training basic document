@@ -20,3 +20,38 @@ All files:
 git add -A
 git commit -a
 
+Part 3:
+step 8:Add your username and email
+>>git config --global user.email "you@example.com"
+>>git config --global user.name "Your Name"
+
+
+Part 4:
+step 9: Branch creation>> git branch firstbranch
+>>git checkout firstbranch(it will contain everything from master branch u can extra here)
+e.g 
+>>git add edu4.txt
+>>git commit edu4.txt -m"adding new edu4.txt file in firstbranch"
+INFO:u can merge ur firstbranch with extra edu4.txt in master by >>git checkout master >> git merge firstbranch(edu4.txt 
+is available in master branch also)>>ls(also if u checkout to firstbranch and update edu4.txt than it will not be available in master
+>>cat edu4.txt .Once u checkout to master than u merge firstbranch and then in master cat ed4.txt has updated) 
+
+step 10.rebase
+checkout to firstbranch >>git add edu5.txt >>git commit edu5.txt -m "check rebase"
+checkout to master >>git rebase firstbranch(adds newly added edu5.txt in master branch)
+
+Part 5:
+Push data in central repository
+step 1 .generate ssh key >>ssh-keygen
+step 2: see your key >> cat /c/Users/Admin/.ssh/id_rsa.pub
+key is :ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQlwakEM+LycE1/6tKtC5lGMEShtnrfRM2Dw8eGPhDFVy6vzw+rPcw5oBipJddTWYpkDacCSquclnlraDWNlRrbqblIQF05srghcyE53aUjUfU9peEYRsIdfDYLL7hTl43GMnn5rCvLzMDBvoXXuMap0e/JMfUNswIljJmqiIlow1e8rGKLcOmBsNAa1zdFKDpRcIIHeQYQx3dnIUUCo5wf38lAo27tbGKICrZ2tqN82oMKeCIlZzwBC9BEYPaC/VjXdnZXsy8qolu0UFk3YWR42Vg478J3m/kJBTAnktB2hXTzxRA1r16h0Q9fVyDOCIRX6c82RpQUd4D/IIY37nX Admin@DESKTOP-5HDRFV6
+step 3:Add ssh by going to github.com(as 3rd ssh key)->settings->ssh and gpg keys->add new ssh3 ->key value paste
+step 4:come to git-bash
+>>ssh -T git@github.com
+
+
+
+
+
+
+
