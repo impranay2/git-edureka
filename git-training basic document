@@ -49,7 +49,7 @@ step 3:Add ssh by going to github.com(as 3rd ssh key)->settings->ssh and gpg key
 step 4:come to git-bash
 >>ssh -T git@github.com
 
-
+Step 3:Always create branch from cmd line >>git checkout firstbranch >>git push origin firstbranch(provide username and password)
 
 
 
