@@ -40,14 +40,7 @@ step 10.rebase
 checkout to firstbranch >>git add edu5.txt >>git commit edu5.txt -m "check rebase"
 checkout to master >>git rebase firstbranch(adds newly added edu5.txt in master branch)
 
-Part 5:
-Push data in central repository
-step 1 .generate ssh key >>ssh-keygen
-step 2: see your key >> cat /c/Users/Admin/.ssh/id_rsa.pub
-key is :ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQlwakEM+LycE1/6tKtC5lGMEShtnrfRM2Dw8eGPhDFVy6vzw+rPcw5oBipJddTWYpkDacCSquclnlraDWNlRrbqblIQF05srghcyE53aUjUfU9peEYRsIdfDYLL7hTl43GMnn5rCvLzMDBvoXXuMap0e/JMfUNswIljJmqiIlow1e8rGKLcOmBsNAa1zdFKDpRcIIHeQYQx3dnIUUCo5wf38lAo27tbGKICrZ2tqN82oMKeCIlZzwBC9BEYPaC/VjXdnZXsy8qolu0UFk3YWR42Vg478J3m/kJBTAnktB2hXTzxRA1r16h0Q9fVyDOCIRX6c82RpQUd4D/IIY37nX Admin@DESKTOP-5HDRFV6
-step 3:Add ssh by going to github.com(as 3rd ssh key)->settings->ssh and gpg keys->add new ssh3 ->key value paste
-step 4:come to git-bash
->>ssh -T git@github.com
+
 
 Step 3:Always create branch from cmd line >>git checkout firstbranch >>git push origin firstbranch(provide username and password)
 
