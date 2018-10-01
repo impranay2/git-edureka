@@ -1,0 +1,6 @@
+step 1: To create a git repository in your local system need to install git first.
+step 2: create a folder and from there right click and open git-bash(available after git installed)
+step 3:in git-bash >>git init (it will create a git local repository in your system (hidden by default ))
+step 4:Link your local repository with Central on git-bash 
+>>git remote add origin "https://github.com/impranay2/git-edureka.git"
+step 5:once added u can use >>git pull origin master (it will update your local repository with Central)
