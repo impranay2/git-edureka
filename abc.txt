@@ -4,3 +4,6 @@ to your local repository, whereas push will push changes
 up to a remote repo. git commit record your changes to 
 the local repository. git push update the remote repository 
 with your local changes.
+
+
+yes its true
